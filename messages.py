@@ -9,7 +9,7 @@ messages=[
     SystemMessage(content='you are a helpful assistant'),
     HumanMessage(content='Tell me about Langchain')
 ]
-result=model.invoke(messages).content
+result=model.invoke(messages)
 
 messages.append(AIMessage(content=result))
 
