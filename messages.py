@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
 load_dotenv()
-model=ChatGroq(model="moonshotai/kimi-k2-instruct-0905")
+model=ChatGroq(model="`moonshotai/kimi-k2-instruct-0905`")
 
 messages=[
     SystemMessage(content='you are a helpful assistant'),
