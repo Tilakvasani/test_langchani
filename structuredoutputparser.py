@@ -5,7 +5,7 @@ from langchain_classic.output_parsers import StructuredOutputParser, ResponseSch
 load_dotenv()
 
 # Define the model
-
+        
 model = ChatGroq(model="llama-3.3-70b-versatile")
 
 schema = [
