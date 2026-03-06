@@ -10,7 +10,6 @@ class Review(TypedDict):
     
 stru=model.with_structured_output(Review)
 
-
 result=stru.invoke("""The sound in VS Code happens because of Audio Cues or Accessibility Signals that play a sound when errors or warnings appear.
 It is a built-in feature, not an extension.""")
 
